@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock%}</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
 </head>
 <body>
-    <div>
+    <header>
         <h1>Vertical Tank Maintenance</h1>
-        <a href="/"> Home </a>
-        <a href="/about"> About </a>
-        <a href="/estimate"> Estimate </a>
-        
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="/"> Home </a></li>
+            <li><a href="/about"> About </a></li>
+            <li><a href="/estimate"> Estimate </a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
         {% block body %}
-
         {% endblock %}
-
     </div>
 </body>
 

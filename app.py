@@ -15,5 +15,11 @@ def about():
 def estimate():
     return render_template('estimate.html', pageTitle='Estimate')
 
+@app.route('/stylesheet.css')
+def stylesheet():
+    response['Content-type'] = 'text/css'
+
+    return response
+
 if __name__ == '__main__':
     app.run(debug=True)
