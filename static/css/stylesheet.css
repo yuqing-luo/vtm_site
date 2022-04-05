@@ -4,6 +4,8 @@ body{
     padding: 0;
 }
 
+/* base.html */
+
 header {
     background-color: #3268a8;
     height:65px;
@@ -47,6 +49,8 @@ div {
     font-family: sans-serif;
 }
 
+/* home.html */
+
 div.home h1 {
     font-size: 25px;
 }
@@ -54,6 +58,8 @@ div.home h1 {
 div.home p {
     font-size: 15px;
 }
+
+/* about.html */
 
 .president {
     float: left;
@@ -67,3 +73,22 @@ div.about h1 {
 div.about p {
     font-size:15px;
 }
+
+/* estimate.html */
+div.estimate h1 {
+    font-size: 25px;
+}
+
+div.estimate label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 70px;
+    text-align: left;
+}
+
+div.estimate input {
+    display: inline-block;
+    float: left;
+}
+

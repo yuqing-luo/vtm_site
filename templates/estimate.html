@@ -4,6 +4,7 @@
 
 {% block body %}
 
+<div class="estimate">
 <h1>Total Cost Estimator</h1>
 
 <form action="/result" method='POST'>
@@ -16,10 +17,13 @@
     <br>
     <br> 
     <input type="submit" value ="See result">
-    
+    <br>
     <p>Total estimated cost: ${{totalCost}}</p>
     </form>
-    {% if tCost %}
+
+</div>
+
+    {% if totalCost %}
     
     {% endif %}
 
