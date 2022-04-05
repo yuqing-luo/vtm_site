@@ -29,7 +29,7 @@ header h1{
 
 .menu li {
     display: inline-block;
-    margin: 8px;
+    margin: 10px;
     list-style: none;
   }
 
@@ -45,6 +45,16 @@ header h1{
     text-decoration: none;
 }
 
+.footer {
+    background-color:#3268a8;
+}
+
+.footer p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
 div {
     font-family: sans-serif;
 }
@@ -57,6 +67,10 @@ div.home h1 {
 
 div.home p {
     font-size: 15px;
+}
+
+.service {
+    float: center;
 }
 
 /* about.html */
