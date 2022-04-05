@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %} Estimate {% endblock %}
+
+{% block body %}
+
+<h1>Total Cost Estimator</h1>
+
+<form action="/result" method='POST'>
+    <label for ="radius">Radius:</label>
+    <input type="text" id="radius" name="radius" required/>
+    <br>
+    <br>
+    <label for ="height">Height:</label>
+    <input type="text" id="height" name="height" required/>
+    <br>
+    <br> 
+    <input type="submit" value ="See result">
+    
+    <p>Total estimated cost: ${{totalCost}}</p>
+    </form>
+    {% if tCost %}
+    
+    {% endif %}
+
+{% endblock %}
