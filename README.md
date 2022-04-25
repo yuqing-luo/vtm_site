@@ -1,3 +1,5 @@
+[![test-package-deploy](https://github.com/yuqing-luo/vtm_site/actions/workflows/pipeline.yml/badge.svg?branch=main&event=push)](https://github.com/yuqing-luo/vtm_site/actions/workflows/pipeline.yml)
+
 # Flask Template
 Basic structure for starting a Flask project with Jinja templates
 
